@@ -1,27 +1,21 @@
 package jenkintest;
 
-import org.testng.annotations.Test;
+
 
 public class JenkinsTest {
 
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		JenkinsTest j = new JenkinsTest();
-		j.browser("chrome");
-	
+	browser();
 
-	}*/
-	@Test
-	public  void browser(String bName){
+	}
+	
+	public static void browser(){
+		System.out.println("Chrome browser is running");
+		//one more comment added
 		
-		if(bName.equals("chrome")){
-			System.out.println("Chrome browser is running");
-		}
-		else
-		{
-			System.out.println("IE browser is running");
-		}
+		
 	}
 
 }
