@@ -13,6 +13,7 @@ public class JenkinsTest {
 	
 	public static void browser(){
 		System.out.println("Chrome browser is running");
+		System.out.println("IE browser is running");
 		//one more comment added
 		
 		
